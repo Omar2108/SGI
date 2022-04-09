@@ -1,0 +1,656 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html body {
+	margin: 10px;
+	padding: 0;
+	background: whitesmoke;
+	background-size: cover;
+	font-family: sans-serif;
+	
+
+}
+
+.bodyContenedor {
+	background: url(https://i.ibb.co/TTtMQ3F/encabezado.png);
+	justify-content: center;
+}
+
+.login-box {
+	width: 400px;
+	height: 500px;
+	background: grey;
+	color: whitesmoke;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+.login-box .avatar {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+
+.login-box h1 { 
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+	color: black;
+
+ }
+
+ .login-box h2 { 
+	margin: 0;
+	padding: 0 0 18px;
+	text-align: center;
+	font-size: 20px;
+	color: black;
+
+ }
+
+.login-box label {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	display: block;
+	color: black;
+}
+
+.login-box input {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.login-box input[type="text"] 
+.login-box input[type="password"] {
+	border: none;
+	border-bottom: 1px solid white;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: black;
+	font-size: 16px;
+}
+
+.login-box input[type="submit"] {
+	border: none;
+	outline: none;
+	height: 40px;
+	background: lightcoral;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.login-box a {
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: blueviolet;
+}
+
+.login-box a:hover {
+	color: blue;
+}
+
+.inicio {
+	background: skyblue;
+	left: 200px;
+	width: 100%;
+	text-decoration: none;
+}
+
+.inicio img {
+	left: 70px;
+	width: 50px;
+	float: none;
+}
+
+.inicio h1 {
+	font-size: 40px;
+	line-height: center;
+	font-family: Forte;
+}
+
+.navegacion {
+	margin: 0;
+	padding: 0px;
+	width: 1000px auto;
+	list-style: none;
+	background: green;
+	font-size: 20px;
+	text-decoration: none;
+	
+}
+
+.menu {
+	margin: 10px;
+	padding: 0;
+	font-size: 25;
+	display: inline-block;
+	list-style: none;
+	text-decoration: none;
+
+
+
+}
+
+.menu li {
+	position: relative;
+	display: inline-block;
+
+}
+
+.menu > li > a {
+	display: block;
+	padding: 15px 10px;
+	color: black;
+	font-family: sans-serif;
+	text-decoration: none;
+
+}
+
+.menu  li ul li {
+	display: none;
+	text-decoration: none;
+	position: relative;
+	font-size: 15px;
+	background: black;
+	color: white;
+	padding: 10px;
+	width: 100%;
+
+}
+
+.menu li a:hover {
+	color: blue;
+	transition: all 0.3s;
+}
+
+.menu:hover li ul li {
+	display: block;
+	visibility: visible;
+}
+
+
+.clearfix {
+	clear: both;
+	padding: 50px;
+}
+
+.contenido {
+	padding: 0px;
+	margin: 0;
+	width: 100%;
+	left: 100%;
+	text-align: center;
+}
+
+.clearfix {
+	clear: both;
+	padding: 40px;
+	}
+
+
+.piepagina {
+	margin: 0;
+	padding: 10px;
+	background: whitesmoke;
+	background-size: cover;
+	background-color: whitesmoke;
+	text-align: center;
+	border-radius: 1em;
+	background-repeat: no-repeat;
+	background-size: 10em auto;
+    box-shadow: -1px -1px 10px rgba(85,107,47,0.5);
+    font-family: Baskerville Old Face;
+
+}
+
+.piepagina p {
+	margin: 0;
+	padding: 2px;
+}
+
+
+.encabezado {
+	background: skyblue;
+	left: 600px;
+	width: 100%;
+
+}
+
+.imagen2 {
+	left: 70px;
+	width: 50px;
+	float: none;
+
+}
+
+.admin {
+	float: right;
+	color: black;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+.titulo {
+	color: black;
+	font-size: 30px;
+	float: center;
+	font-family: Forte;
+}
+
+.barra {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	left: 100px;
+	background: green;
+}
+
+
+.navegacion2 {
+	padding: 0;
+	margin: 0 auto;
+	background: green;
+	text-decoration: none;
+	display: inline-block;
+	position: relative;
+	color: black;
+
+}
+
+.menu2 li a {
+	padding: 5px 10px;
+	margin: auto;
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+	list-style: none;
+	font-size: 20px;
+	color: black;
+}
+
+.menu2 li {
+	float: left;
+	display: inline-block;
+	font-size: 20px;
+	color: black;
+}
+
+.menu2 li:hover {
+	color: blue;
+}
+
+}
+
+.clearfix {
+	clear: both;
+	padding: 40px;
+}
+
+.subtitulo {
+	font-size: 25px;
+	font-family: times new roman;
+	color: black;
+	text-align: center;
+
+}
+
+.formulario {
+	padding: 10px;
+	width: 100%px;
+	left: 1000px;
+	
+}
+
+.tabla {
+	margin: auto;
+	padding: 0px;
+	font-size: 15px;
+	background: #82E0AA;
+	color: black;
+	font-family: times new roman;
+	width: 700px;
+	left: 100%;
+	
+	
+}
+
+.tabla input {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	left: 100%;
+	border: black;
+	
+}
+
+
+.tabla input[type="submit"] {
+	padding: 10px;
+	margin: 10px;
+	background: skyblue;
+	width: 150px;
+	left: 100%;
+	color: black;
+	border-radius: 10%;
+	text-align: center;
+	float: center;
+}
+
+.tabla input[type="submit"]:hover{
+	color: green;
+
+}
+
+
+.piepagina2 {
+	margin: 0;
+	padding: 10px;
+	background: whitesmoke;
+	background-size: cover;
+	background-color: whitesmoke;
+	text-align: center;
+	border-radius: 1em;
+	background-repeat: no-repeat;
+	background-size: 10em auto;
+    box-shadow: -1px -1px 10px rgba(85,107,47,0.5);
+    font-family: Baskerville Old Face;
+
+}
+
+.piepagina2 p {
+	margin: 0;
+	padding: 2px;
+}
+
+.encabezado2 {
+	background: skyblue;
+	left: 600px;
+	width: 100%;
+
+}
+
+.imagen3 {
+	left: 70px;
+	width: 50px;
+	float: none;
+
+}
+
+.admin2 {
+	float: right;
+	color: black;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+.titulo2 {
+	color: black;
+	font-size: 30px;
+	float: center;
+	font-family: Forte;
+}
+
+.barra2 {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	left: 50px;
+	background: green;
+}
+
+
+.navegacion3 {
+	padding: 0;
+	margin: 15px;
+	background: green;
+	text-decoration: none;
+	display: inline-block;
+	position: relative;
+	color: black;
+
+}
+
+.menu3 li a {
+	padding: 10px 15px;
+	margin: 10px;
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+	list-style: none;
+	font-size: 20px;
+	color: black;
+}
+
+.menu3 li {
+	float: left;
+	display: inline-block;
+	font-size: 20px;
+	color: black;
+}
+
+.menu3 li:hover {
+	color: blue;
+}
+
+}
+
+.clearfix {
+	clear: both;
+	padding: 40px;
+}
+
+.subtitulo2 {
+	font-size: 25px;
+	font-family: times new roman;
+	color: black;
+	text-align: center;
+
+}
+
+.buscador {
+	padding: 0;
+	margin: auto;
+	background: whitesmoke;
+	width: 100%;
+	left: 1200px;
+	text-align: center;
+}
+
+.buscador input {
+	padding: 0;
+	margin: 10px;
+	width: 200px;
+	left: 20px;
+	text-align: center;
+	float: center;
+}
+
+.buscador input[type="submit"] {
+	padding: 10px;
+	margin: 10px;
+	background: skyblue;
+	width: 150px;
+	left: 100%;
+	color: black;
+	border-radius: 10%;
+}
+
+.buscador input[type="submit"]:hover{
+	color: green;
+
+}
+
+.resultado {
+	padding: 10px;
+	margin: 0 auto;
+	float: center;
+	text-align: center;
+	width: 100%;
+	left: 80%;
+	border: white;
+}
+
+.resultado textarea {
+	padding: 5px;
+	margin: 0 auto;
+	float: center;
+	text-align: left;
+	width: 80%;
+	left: 1000px;
+}
+
+.tabla2 {
+	padding: 0;
+	margin: 0 auto;
+	float: center;
+	width: 500px;
+	left: 700px;
+	text-align: left;
+	font-size: 15px;
+	font-family: times new roman;
+
+}
+
+.encabezadoFactura {
+	padding: 10px;
+	margin: 10px auto;
+	width: 100%;
+	background: whitesmoke;
+}
+
+.seccion1 {
+	padding: 0;
+	margin: 0 auto;
+	width: 100%;
+	background: #F2F3F4;
+	
+}
+
+.row h3 {
+	text-align: center;
+	font-size: 25px;
+	font-family: times new roman;
+	padding: 10px;
+	margin: 10px;
+}
+
+
+.buscar {
+	padding: 0px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 15px;
+	font-family: times new roman;
+	background: #FDEDEC;
+	width: 100%;
+
+}
+
+.detalle {
+	padding: 10px;
+	margin: 10px;
+	font-family: times new roman;
+
+}
+
+.detalle2 {
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px;
+	width: 100%;
+	left: 1000px;
+	font-size: 15px;
+	font-family: times new roman;
+	background: #FDEDEC;
+}
+
+.cabecera {
+	padding: 10px;
+	margin: 10px;
+	text-align: left;
+	font-size: 20px;
+	font-family: times new roman;
+}
+
+.formulario3 {
+	padding: 0px;
+	margin: 0 auto;
+	width: 100%;
+	background: #FDEDEC;
+	text-align: center;
+	justify-content: center;
+	float: none;
+}
+
+.tabla3 {
+	padding: 0;
+	margin: 0 auto;
+	width: 100%;
+	background: #FBFCFC;
+	text-align: center;
+}
+
+.tabla4{
+	padding: 10px;
+	margin: 10px;
+	font-size: 15px;
+	font-family: imes new roman;
+	width: 80%;
+	left: 800px;
+
+}
+
+.boton4 {
+	padding: 0;
+	margin: auto;
+	font-size: 15px;
+	float: center;
+	justify-content: center;
+	text-align: center;
+	background: #85C1E9;
+	color: black;
+}
+
+.boton4:hover{
+	color: green;
+}
+
+.cerrarSesion:hover {
+	color: green;
+
+}
+
+.Cabecera {
+	padding: 10px !important;
+	margin: auto;
+	font-size: 30px!important;
+	text-align: center !important;
+	justify-content: center !important;
+	font-family: sans-serif !important;
+}
+
+/*----------  Page 404 styles  ----------*/
+.container-404{
+	background: #000428;
+	background: linear-gradient(to right, #004e92, #000428);
+	color: #fff;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
